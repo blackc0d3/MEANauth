@@ -1,0 +1,32 @@
+{
+  "name": "meanauth",
+  "version": "1.0.0",
+  "description": "Mean stack authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app",
+    "start-dev": "nodemon"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemon": "^1.11.0",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackc0d3/MEANauth.git"
+  },
+  "author": "Jorge A. Avila-Haro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackc0d3/MEANauth/issues"
+  },
+  "homepage": "https://github.com/blackc0d3/MEANauth#readme"
+}
